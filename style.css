@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #3baed1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.login-area {
+    width: 350px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: arial;
+    color: white;
+    padding: 5rem;
+}
+
+h3 {
+    font-family: arial;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 23px;
+}
+
+input {
+    width: 300px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    border: none;
+}
+
+button {
+    padding: 13px;
+    width: 5rem;
+    font-size: 15px;
+    font-family: arial;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* for back part */
+section.back-part-area {
+    width: 1140px;
+    margin: 0 auto;
+    display: none;
+}
+
+.deposit-withdraw-balance {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.single {
+    width: 270px;
+    height: 115px;
+    background: orange;
+    border-radius: 1rem;
+    padding: 20px;
+}
+
+.single h4 {
+    font-size: 21px;
+    font-family: arial;
+    color: white;
+}
+
+.single h2 {
+    font-size: 55px;
+    color: white;
+    font-family: arial;
+}
+
+.deposit-withdraw {
+    padding: 4rem;
+    display: flex;
+}
+
+.deposit-count {
+    border-radius: 1rem;
+    width: 400px;
+    box-shadow: 0px 2px 8px 4px #323232;
+    padding: 2rem;
+    margin-right: 115px;
+}
+
+.deposit-count h3 {
+    font-size: 30px;
+}
+
+.deposit-count input {
+    margin-bottom: 20px;
+}
+
+.withdraw-count {
+    border-radius: 1rem;
+    width: 400px;
+    box-shadow: 0px 2px 8px 4px #323232;
+    padding: 2rem;
+}
+.withdraw-count h3 {
+    font-size: 30px;
+}
+
+.withdraw-count input {
+    margin-bottom: 20px;
+}
+
+.deposit-color {
+    background: #d359c4;
+}
+
+.withdraw-color {
+    background: #ca625d;
+}
+
+balance-color {
+    background: orange;
+}
